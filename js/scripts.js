@@ -3,7 +3,7 @@
 
 	var project = {};
 
-	project.name = 'UX Talks';
+	project.name = 'TEDxIIITD';
 	project.currentBreakpoint = {};
 
 	project.init = function() {
