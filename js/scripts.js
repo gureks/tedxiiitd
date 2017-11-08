@@ -214,4 +214,3 @@
 
 	$(document).ready(project.init);
 })(jQuery);
-

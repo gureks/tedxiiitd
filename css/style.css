@@ -245,6 +245,9 @@ p {
 	pointer-events: all;
 	opacity: 1;
 }
+.footer.bottom {
+	position: inherit;
+}
 .footer.bottom .footer__logo {
 	pointer-events: all;
 	opacity: 1;
@@ -321,11 +324,11 @@ p {
 	clear: both;
 }
 .join-us__headline:before {
-	content: 'ideas worth sharing';
+	content: 'ideas worth spreading';
 	position: absolute;
 	display: block;
 	width: 132px;
-	opacity: 0.1;
+	opacity: 0.05;
 	font: 210px/0.95 "unisanssemiboldbold", sans-serif;
 	color: #fff;
 	top: -285px;
@@ -687,7 +690,7 @@ p {
 	.join-us h1:before {
 		position: absolute;
 		display: block;
-		content: '0 0 2';
+		content: 'ideas worth spreading';
 		font: 20px/0.95 "unisanssemiboldbold", sans-serif;
 		color: #fff;
 		width: 50px;
@@ -850,4 +853,49 @@ p {
 		width: auto;
 		margin: 0 15px;
 	}
+}
+
+.btn--partner {
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(128deg, #202020, #e62b1e);
+    border-image-slice: 1;
+    font: 15px/1 "unisanssemiboldbold", sans-serif;
+    text-align: center;
+    color: #2b2b2b !important;
+    padding: 15px 10px;
+    min-width: 157px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 1.7px;
+    opacity: 0;
+    pointer-events: none;
+    margin-right: 80px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    pointer-events: all;
+    opacity: 1;
+    font-size: 17px;
+    border-width: 3px;
+    min-width: 207px;
+    padding: 18px 10px 17px;
+}
+.btn--partner:hover {
+	background-color: #fff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+    background: -moz-linear-gradient(322deg, #00dbde, #943095);
+	background: -webkit-linear-gradient(322deg, #00dbde, #943095);
+	background: linear-gradient(128deg, #00dbde, #943095);
+}
+.footer.credits {
+	position: inherit;
+	background-color: #e62b1e;
+}
+.footer.credits p{
+	color: #ffffff;
+	text-align: center;
 }
