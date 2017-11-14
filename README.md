@@ -5,15 +5,15 @@ This repository contains the codebase for the website of TEDxIIITD'18 and archiv
 ## To-Do
 	[x] Lazy Scroll on anchor to div id
 	[x] Blog
-	[] Contact Us
+	[x] Contact Us
 	[] Team Page
 	[] Past speakers
 	[x] Fixed Footer at the end
 	[] Recheck Rules
-	[] 'Nominate a Speaker' button
+	[x] 'Nominate a Speaker' button
 	[x] 'Become a partner' button
 	[] Form Page
-	[] Google Maps
+	[x] Google Maps
 	[] Social Media Buttons
 	[] Twitter Feed
 	[] Speaker movement on hover
