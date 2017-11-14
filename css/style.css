@@ -1006,3 +1006,8 @@ p {
 	color: #ffffff;
 	text-align: center;
 }
+.footer.credits p a{
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+}
